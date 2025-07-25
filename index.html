@@ -5,6 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sri Lanka Railways</title>
     <link rel="stylesheet" href="main.css">
+    <style>
+        table.services-menu {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table.services-menu td {
+            width: 25%;
+            text-align: center;
+            padding: 20px;
+            background-color: #f2f2f2;
+            border: 1px solid #ddd;
+        }
+        table.services-menu td a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        table.services-menu td a:hover {
+            color: #ff6600;
+        }
+        table.services-menu td:hover {
+            background-color: burlywood;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -15,9 +39,9 @@
         </a>
 
         <!--Banner Image-->
-        <div class="bannerimg">
+        <!-- <div class="bannerimg">
             <img src="images/bannerimg.jpg" alt="Sri Lanka Railways Banner" style="height: 100%; width: 100%; padding-left: 100%;">
-        </div>
+        </div> -->
     </header>
         <nav>
             <ul>
@@ -31,6 +55,22 @@
                 <li><a href="index.html">Contact Us </a></li>
             </ul>
         </nav>
+        <!--Slideshow-->
+        <div class="slideshow-container">
+            <img src="images/bannerimg.jpg"style="display:block;height: 100%; width: 100%;">
+        </div>
+        </br>
+        <!--Services Menu-->
+        <table class="services-menu" >
+            <tr>
+                <td><a href="train-schedule.html">Train Schedule</a></td>
+                <td><a href="ticket-booking.html">Ticket Booking</a></td>
+                <td><a href="parcel.html">Goods & Parcels</a></td>
+                <td><a href="complains.html">Complaints</a></td>
+            </tr>
+        </table>
+
+
 
     
 </body>
