@@ -1,15 +1,16 @@
 body{
     margin:15px
     padding:10px;
-}
+    background-color:whitesmoke;
 header{
     display: flex;
     height: 100px;
-    background-color: rgb(59, 30, 16);
+    background-color: rgb(156, 54, 20);
+    border-radius: 3px;
 }
 header h1{
     padding-left:10px;
-    color:rgb(161, 82, 51);
+    color:rgb(212, 144, 72);
 }
 header a{
     text-decoration: none;
@@ -24,14 +25,15 @@ header a{
     display: block;
 }
 nav {
-    background-color: rgb(59, 30, 16);
+    background-color: rgb(156, 54, 20);
     padding: 1px;
     margin-top: 10px;
     margin-bottom: 10px;
+    border-radius: 3px;
 }
 
 nav ul li {
-    background-color: rgb(59, 30, 16);
+    background-color: rgb(156, 54, 20);
     list-style-type:none;
     text-decoration: none;
     display: inline-block;
@@ -44,7 +46,7 @@ nav ul li a{
     font-weight: 500;
     text-decoration: none;
     /* background-color: rgb(161, 82, 51); */
-    color:rgb(245, 242, 241);
+    color:rgb(212, 144, 72);
     padding-right: 10px;
 }
 nav ul li a:hover {
