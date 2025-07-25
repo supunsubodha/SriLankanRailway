@@ -1,0 +1,19 @@
+header{
+    height: 100px;
+    background-color: rgb(59, 30, 16);
+    display:flex;
+    align-items: center;
+}
+header h1{
+    padding-left:10px;
+    color:rgb(161, 82, 51);
+}
+header a{
+    text-decoration: none;
+    display: flex;
+    align-items:center;
+}
+body{
+    margin:15px
+    padding:10px
+}
