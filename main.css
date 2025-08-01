@@ -2,9 +2,10 @@ body{
     margin:15px
     padding:10px;
     background-color:whitesmoke;
+}
 header{
     display: flex;
-    height: 100px;
+    height: 120px;
     background-color: rgb(156, 54, 20);
     border-radius: 3px;
 }
@@ -20,8 +21,8 @@ header a{
 .banner-img{
     height: 100%;
     width: auto;
-    
-    margin-left: auto; /* pushes image to the right in flexbox */
+    text-align: right;
+    margin-left: auto;
     display: block;
 }
 nav {
@@ -52,4 +53,16 @@ nav ul li a{
 nav ul li a:hover {
     background-color: rgb(161, 82, 51);
     color: white;
+}
+
+footer {
+    background-color: rgb(156, 54, 20);
+    color: rgb(212, 144, 72);
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+footer td{
+    display: flexbox;
 }
